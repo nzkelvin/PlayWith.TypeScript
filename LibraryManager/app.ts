@@ -1,3 +1,5 @@
+/// <reference path="./typings/XRM/xrm.d.ts" />
+
 class HelloWorld {
     constructor(public message: string) {}
 }
@@ -5,6 +7,8 @@ class HelloWorld {
 var hello = new HelloWorld('Hello TypeScript');
 console.log(hello.message);
 console.log("Hello Visual Studio Code")
+
+Xrm.Page.data.entity.attributes["fus_firstname"];
 
 function ScopeTest(){
     if (true){

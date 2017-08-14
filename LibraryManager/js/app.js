@@ -1,3 +1,4 @@
+/// <reference path="../typings/XRM/xrm.d.ts" />
 var HelloWorld = (function () {
     function HelloWorld(message) {
         this.message = message;
@@ -7,6 +8,7 @@ var HelloWorld = (function () {
 var hello = new HelloWorld('Hello TypeScript');
 console.log(hello.message);
 console.log("Hello Visual Studio Code");
+Xrm.Page.data.entity.attributes["fus_firstname"];
 function ScopeTest() {
     if (true) {
         var foo = 'use anywhere';

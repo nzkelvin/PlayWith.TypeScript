@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+            "target":"es5",
+            "outDir": "scripts",
+            "module": "commonjs", 
+            "sourceMap": true,
+            "noImplicitAny": false,
+            "watch": true,
+            "typeRoots": [ "./typings" ],
+            "strictNullChecks": true
+    },
+    "files": [
+        "./scripts/mrxrm.contact.form.ts"
+    ]
+}
